@@ -1,5 +1,11 @@
 @import "variables.scss";
 @import "breakpoints.scss";
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 // -task-1-
 // .header {
 //   background-color: $color-grey;
@@ -27,26 +33,25 @@
 //     }
 //   }
 // }
-* {
-  box-sizing: border-box;
-}
-body {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: coral;
-  margin: 16px;
 
-  @include for-medium-up {
-    background-color: aqua;
-  }
+// task-2
+// body {
+//   display: flex;
+//   height: 100vh;
+//   align-items: center;
+//   justify-content: center;
+// }
+// .square {
+//   width: 100px;
+//   height: 100px;
+//   background-color: coral;
+//   margin: 16px;
 
-  @include for-large-up {
-    background-color: gold;
-  }
-}
+//   @include for-medium-up {
+//     background-color: aqua;
+//   }
+
+//   @include for-large-up {
+//     background-color: gold;
+//   }
+// }

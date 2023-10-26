@@ -1,7 +1,8 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
+/* task-2
 body {
   display: flex;
   height: 100vh;
@@ -24,6 +25,6 @@ body {
   .square {
     background-color: gold;
   }
-}
+} */
 
 /*# sourceMappingURL=styles.css.map */

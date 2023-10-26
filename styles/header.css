@@ -1,8 +1,7 @@
-@import "header.scss";
-@import "breakpoints.scss";
 * {
   box-sizing: border-box;
 }
+
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+}/*# sourceMappingURL=header.css.map */
